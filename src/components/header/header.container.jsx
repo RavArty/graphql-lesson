@@ -7,7 +7,6 @@ import Header from './header.component';
 const GET_CLIENT_PROPERTIES = gql`
   {
     cartHidden @client
-    currentUser @client
   }
 `;
 
